@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="DBServlet" type = "get">
+<center>
+id:  <input type="text" name="id" />
+<br>
+<br>
+name:  <input type="text" name="name" />
+<br>
+<br>
+salary:  <input type="text" name="salary" />
+<br>
+<br>
+<input type="submit" name="option" value="save" />
+
+</center>
+</form>
+<BR><BR><BR><BR>
+LIST EMPLOYEES...  <BR>
+
+
+<form action="DBServlet" type = "get">
+<center>
+
+<input type="submit" name="option"  value="list" />
+</center>
+</form>
+
+<BR><BR><BR><BR>
+
+UPDATE EMPLOYEES <BR>
+
+<form action="DBServlet" type = "get">
+<center>
+id:  <input type="text" name="id" />
+<br>
+
+salary:  <input type="text" name="salary" />
+<br>
+<br>
+<input type="submit" name="option" value="update"  />
+</center>
+</form>
+
+</body>
+</html>
